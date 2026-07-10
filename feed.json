@@ -1,0 +1,143 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Card Meanings",
+    "description": "",
+    "home_page_url": "https://cardmeanings.com",
+    "feed_url": "https://cardmeanings.com/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "Finbarre Snarey"
+    },
+    "items": [
+        {
+            "id": "https://cardmeanings.com/cards/king-of-pentacles/",
+            "url": "https://cardmeanings.com/cards/king-of-pentacles/",
+            "title": "King of Pentacles",
+            "image": "https://cardmeanings.com/media/posts/78/13pent.png",
+            "author": {
+                "name": "Finbarre Snarey"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-07-10T19:15:09+01:00",
+            "date_modified": "2026-07-10T19:15:24+01:00"
+        },
+        {
+            "id": "https://cardmeanings.com/cards/queen-of-pentacles/",
+            "url": "https://cardmeanings.com/cards/queen-of-pentacles/",
+            "title": "Queen of Pentacles",
+            "image": "https://cardmeanings.com/media/posts/77/14pent.png",
+            "author": {
+                "name": "Finbarre Snarey"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-07-10T19:14:59+01:00",
+            "date_modified": "2026-07-10T19:14:59+01:00"
+        },
+        {
+            "id": "https://cardmeanings.com/cards/knight-of-pentacles/",
+            "url": "https://cardmeanings.com/cards/knight-of-pentacles/",
+            "title": "Knight of Pentacles",
+            "image": "https://cardmeanings.com/media/posts/76/12pent.png",
+            "author": {
+                "name": "Finbarre Snarey"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-07-10T19:14:47+01:00",
+            "date_modified": "2026-07-10T19:14:47+01:00"
+        },
+        {
+            "id": "https://cardmeanings.com/cards/page-of-pentacles/",
+            "url": "https://cardmeanings.com/cards/page-of-pentacles/",
+            "title": "Page of Pentacles",
+            "image": "https://cardmeanings.com/media/posts/75/11pent.png",
+            "author": {
+                "name": "Finbarre Snarey"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-07-10T19:14:34+01:00",
+            "date_modified": "2026-07-10T19:14:34+01:00"
+        },
+        {
+            "id": "https://cardmeanings.com/cards/ten-of-pentacles/",
+            "url": "https://cardmeanings.com/cards/ten-of-pentacles/",
+            "title": "Ten of Pentacles",
+            "image": "https://cardmeanings.com/media/posts/74/10pent.png",
+            "author": {
+                "name": "Finbarre Snarey"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-07-10T19:14:18+01:00",
+            "date_modified": "2026-07-10T19:14:18+01:00"
+        },
+        {
+            "id": "https://cardmeanings.com/cards/nine-of-pentacles/",
+            "url": "https://cardmeanings.com/cards/nine-of-pentacles/",
+            "title": "Nine of Pentacles",
+            "image": "https://cardmeanings.com/media/posts/73/9pent.png",
+            "author": {
+                "name": "Finbarre Snarey"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-07-10T19:14:05+01:00",
+            "date_modified": "2026-07-10T19:14:05+01:00"
+        },
+        {
+            "id": "https://cardmeanings.com/cards/eight-of-pentacles/",
+            "url": "https://cardmeanings.com/cards/eight-of-pentacles/",
+            "title": "Eight of Pentacles",
+            "image": "https://cardmeanings.com/media/posts/72/8pent..png",
+            "author": {
+                "name": "Finbarre Snarey"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-07-10T19:13:54+01:00",
+            "date_modified": "2026-07-10T19:13:54+01:00"
+        },
+        {
+            "id": "https://cardmeanings.com/cards/seven-of-pentacles/",
+            "url": "https://cardmeanings.com/cards/seven-of-pentacles/",
+            "title": "Seven of Pentacles",
+            "image": "https://cardmeanings.com/media/posts/71/7pent..png",
+            "author": {
+                "name": "Finbarre Snarey"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-07-10T19:13:45+01:00",
+            "date_modified": "2026-07-10T19:13:45+01:00"
+        },
+        {
+            "id": "https://cardmeanings.com/cards/six-of-pentacles/",
+            "url": "https://cardmeanings.com/cards/six-of-pentacles/",
+            "title": "Six of Pentacles",
+            "image": "https://cardmeanings.com/media/posts/70/6pent..png",
+            "author": {
+                "name": "Finbarre Snarey"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-07-10T19:13:31+01:00",
+            "date_modified": "2026-07-10T19:13:31+01:00"
+        },
+        {
+            "id": "https://cardmeanings.com/cards/five-of-pentacles/",
+            "url": "https://cardmeanings.com/cards/five-of-pentacles/",
+            "title": "Five of Pentacles",
+            "image": "https://cardmeanings.com/media/posts/69/5pent..png",
+            "author": {
+                "name": "Finbarre Snarey"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-07-10T19:13:18+01:00",
+            "date_modified": "2026-07-10T19:13:18+01:00"
+        }
+    ]
+}

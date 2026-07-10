@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Card Meanings</title>
+    <link href="https://cardmeanings.com/feed.xml" rel="self" />
+    <link href="https://cardmeanings.com" />
+    <updated>2026-07-10T19:15:24+01:00</updated>
+    <author>
+        <name>Finbarre Snarey</name>
+    </author>
+    <id>https://cardmeanings.com</id>
+
+    <entry>
+        <title>King of Pentacles</title>
+        <author>
+            <name>Finbarre Snarey</name>
+        </author>
+        <link href="https://cardmeanings.com/cards/king-of-pentacles/"/>
+        <id>https://cardmeanings.com/cards/king-of-pentacles/</id>
+        <media:content url="https://cardmeanings.com/media/posts/78/13pent.png" medium="image" />
+
+        <updated>2026-07-10T19:15:09+01:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Queen of Pentacles</title>
+        <author>
+            <name>Finbarre Snarey</name>
+        </author>
+        <link href="https://cardmeanings.com/cards/queen-of-pentacles/"/>
+        <id>https://cardmeanings.com/cards/queen-of-pentacles/</id>
+        <media:content url="https://cardmeanings.com/media/posts/77/14pent.png" medium="image" />
+
+        <updated>2026-07-10T19:14:59+01:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Knight of Pentacles</title>
+        <author>
+            <name>Finbarre Snarey</name>
+        </author>
+        <link href="https://cardmeanings.com/cards/knight-of-pentacles/"/>
+        <id>https://cardmeanings.com/cards/knight-of-pentacles/</id>
+        <media:content url="https://cardmeanings.com/media/posts/76/12pent.png" medium="image" />
+
+        <updated>2026-07-10T19:14:47+01:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Page of Pentacles</title>
+        <author>
+            <name>Finbarre Snarey</name>
+        </author>
+        <link href="https://cardmeanings.com/cards/page-of-pentacles/"/>
+        <id>https://cardmeanings.com/cards/page-of-pentacles/</id>
+        <media:content url="https://cardmeanings.com/media/posts/75/11pent.png" medium="image" />
+
+        <updated>2026-07-10T19:14:34+01:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Ten of Pentacles</title>
+        <author>
+            <name>Finbarre Snarey</name>
+        </author>
+        <link href="https://cardmeanings.com/cards/ten-of-pentacles/"/>
+        <id>https://cardmeanings.com/cards/ten-of-pentacles/</id>
+        <media:content url="https://cardmeanings.com/media/posts/74/10pent.png" medium="image" />
+
+        <updated>2026-07-10T19:14:18+01:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Nine of Pentacles</title>
+        <author>
+            <name>Finbarre Snarey</name>
+        </author>
+        <link href="https://cardmeanings.com/cards/nine-of-pentacles/"/>
+        <id>https://cardmeanings.com/cards/nine-of-pentacles/</id>
+        <media:content url="https://cardmeanings.com/media/posts/73/9pent.png" medium="image" />
+
+        <updated>2026-07-10T19:14:05+01:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Eight of Pentacles</title>
+        <author>
+            <name>Finbarre Snarey</name>
+        </author>
+        <link href="https://cardmeanings.com/cards/eight-of-pentacles/"/>
+        <id>https://cardmeanings.com/cards/eight-of-pentacles/</id>
+        <media:content url="https://cardmeanings.com/media/posts/72/8pent..png" medium="image" />
+
+        <updated>2026-07-10T19:13:54+01:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Seven of Pentacles</title>
+        <author>
+            <name>Finbarre Snarey</name>
+        </author>
+        <link href="https://cardmeanings.com/cards/seven-of-pentacles/"/>
+        <id>https://cardmeanings.com/cards/seven-of-pentacles/</id>
+        <media:content url="https://cardmeanings.com/media/posts/71/7pent..png" medium="image" />
+
+        <updated>2026-07-10T19:13:45+01:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Six of Pentacles</title>
+        <author>
+            <name>Finbarre Snarey</name>
+        </author>
+        <link href="https://cardmeanings.com/cards/six-of-pentacles/"/>
+        <id>https://cardmeanings.com/cards/six-of-pentacles/</id>
+        <media:content url="https://cardmeanings.com/media/posts/70/6pent..png" medium="image" />
+
+        <updated>2026-07-10T19:13:31+01:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+    <entry>
+        <title>Five of Pentacles</title>
+        <author>
+            <name>Finbarre Snarey</name>
+        </author>
+        <link href="https://cardmeanings.com/cards/five-of-pentacles/"/>
+        <id>https://cardmeanings.com/cards/five-of-pentacles/</id>
+        <media:content url="https://cardmeanings.com/media/posts/69/5pent..png" medium="image" />
+
+        <updated>2026-07-10T19:13:18+01:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+</feed>
