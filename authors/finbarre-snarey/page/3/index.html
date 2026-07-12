@@ -153,7 +153,7 @@
                      append  : '.c-card',
                      checkLastPage: true,
                      hideNav: '.pagination',
-                     history :  false 
+                     history :  'replace' 
                   });
 
                   infScroll.on('append', function () {
@@ -174,4 +174,13 @@
             }
          }
       }
-      publiiDetectLoadedImages();</script></body></html>
+      publiiDetectLoadedImages();</script><script src="https://cardmeanings.com/media/plugins/pagePrefetching/quicklink.umd.js"></script><script>window.addEventListener('load', () => {
+					quicklink.listen({
+						prerender: true,
+						el: document.querySelector('body'),
+						delay: 300,
+						limit: Infinity,
+						throttle: 3,
+						timeout: 2000
+					});
+				});</script></body></html>
