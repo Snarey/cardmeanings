@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en-gb"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tag: Crown - Card Meanings</title><meta name="robots" content="noindex, follow"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="alternate" type="application/atom+xml" href="https://cardmeanings.com/feed.xml" title="Card Meanings - RSS"><link rel="alternate" type="application/json" href="https://cardmeanings.com/feed.json" title="Card Meanings - JSON"><meta property="og:title" content="Crown"><meta property="og:site_name" content="Card Meanings"><meta property="og:description" content=""><meta property="og:url" content="https://cardmeanings.com/tags/crown/"><meta property="og:type" content="website"><link rel="shortcut icon" href="https://cardmeanings.com/media/website/favicon.png" type="image/png"><link rel="shortcut icon" href="https://cardmeanings.com/media/website/favicon.png" type="image/png"><link rel="preload" href="https://cardmeanings.com/assets/dynamic/fonts/manrope/manrope.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://cardmeanings.com/assets/dynamic/fonts/lora/lora.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://cardmeanings.com/assets/dynamic/fonts/lora/lora-italic.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="https://cardmeanings.com/assets/css/style.css?v=bcce911852bd920e08c883d467766a6e"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Card Meanings","url":"https://cardmeanings.com/"}</script><noscript><style>img[loading] {
+<!DOCTYPE html><html lang="en-gb"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tag: Crown - Card Meanings</title><meta name="robots" content="noindex, follow"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="alternate" type="application/atom+xml" href="https://cardmeanings.com/feed.xml" title="Card Meanings - RSS"><link rel="alternate" type="application/json" href="https://cardmeanings.com/feed.json" title="Card Meanings - JSON"><meta property="og:title" content="Crown"><meta property="og:site_name" content="Card Meanings"><meta property="og:description" content=""><meta property="og:url" content="https://cardmeanings.com/tags/crown/"><meta property="og:type" content="website"><link rel="shortcut icon" href="https://cardmeanings.com/media/website/favicon.png" type="image/png"><link rel="shortcut icon" href="https://cardmeanings.com/media/website/favicon.png" type="image/png"><link rel="preload" href="https://cardmeanings.com/assets/dynamic/fonts/manrope/manrope.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://cardmeanings.com/assets/dynamic/fonts/lora/lora.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://cardmeanings.com/assets/dynamic/fonts/lora/lora-italic.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="https://cardmeanings.com/assets/css/style.css?v=3c653eada439a24d33ed2f709eb9c2a8"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Card Meanings","url":"https://cardmeanings.com/"}</script><noscript><style>img[loading] {
                     opacity: 1;
                 }</style></noscript><script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -174,7 +174,30 @@
             }
          }
       }
-      publiiDetectLoadedImages();</script><script src="https://cardmeanings.com/media/plugins/pagePrefetching/quicklink.umd.js"></script><script>window.addEventListener('load', () => {
+      publiiDetectLoadedImages();</script><script>(function () {
+    const path = window.location.pathname.toLowerCase();
+    const root = document.documentElement;
+
+    root.classList.remove(
+        'card-suit-major-arcana',
+        'card-suit-wands',
+        'card-suit-cups',
+        'card-suit-swords',
+        'card-suit-pentacles'
+    );
+
+    if (path.includes('-of-wands')) {
+        root.classList.add('card-suit-wands');
+    } else if (path.includes('-of-cups')) {
+        root.classList.add('card-suit-cups');
+    } else if (path.includes('-of-swords')) {
+        root.classList.add('card-suit-swords');
+    } else if (path.includes('-of-pentacles')) {
+        root.classList.add('card-suit-pentacles');
+    } else if (path.includes('/cards/')) {
+        root.classList.add('card-suit-major-arcana');
+    }
+})();</script><script src="https://cardmeanings.com/media/plugins/pagePrefetching/quicklink.umd.js"></script><script>window.addEventListener('load', () => {
 					quicklink.listen({
 						prerender: true,
 						el: document.querySelector('body'),
