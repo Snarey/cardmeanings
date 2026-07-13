@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="en-gb"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tag: Fruit - Card Meanings</title><meta name="robots" content="noindex, follow"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="alternate" type="application/atom+xml" href="https://cardmeanings.com/feed.xml" title="Card Meanings - RSS"><link rel="alternate" type="application/json" href="https://cardmeanings.com/feed.json" title="Card Meanings - JSON"><meta property="og:title" content="Fruit"><meta property="og:site_name" content="Card Meanings"><meta property="og:description" content=""><meta property="og:url" content="https://cardmeanings.com/tags/fruit/"><meta property="og:type" content="website"><link rel="shortcut icon" href="https://cardmeanings.com/media/website/favicon.png" type="image/png"><link rel="shortcut icon" href="https://cardmeanings.com/media/website/favicon.png" type="image/png"><link rel="preload" href="https://cardmeanings.com/assets/dynamic/fonts/manrope/manrope.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://cardmeanings.com/assets/dynamic/fonts/lora/lora.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://cardmeanings.com/assets/dynamic/fonts/lora/lora-italic.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="https://cardmeanings.com/assets/css/style.css?v=3c653eada439a24d33ed2f709eb9c2a8"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Card Meanings","url":"https://cardmeanings.com/"}</script><noscript><style>img[loading] {
+<!DOCTYPE html><html lang="en-gb"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Tag: Fruit - Card Meanings</title><meta name="robots" content="noindex, follow"><meta name="generator" content="Publii Open-Source CMS for Static Site"><link rel="alternate" type="application/atom+xml" href="https://cardmeanings.com/feed.xml" title="Card Meanings - RSS"><link rel="alternate" type="application/json" href="https://cardmeanings.com/feed.json" title="Card Meanings - JSON"><meta property="og:title" content="Fruit"><meta property="og:site_name" content="Card Meanings"><meta property="og:description" content=""><meta property="og:url" content="https://cardmeanings.com/tags/fruit/"><meta property="og:type" content="website"><link rel="shortcut icon" href="https://cardmeanings.com/media/website/favicon.png" type="image/png"><link rel="shortcut icon" href="https://cardmeanings.com/media/website/favicon.png" type="image/png"><link rel="preload" href="https://cardmeanings.com/assets/dynamic/fonts/manrope/manrope.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://cardmeanings.com/assets/dynamic/fonts/lora/lora.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="https://cardmeanings.com/assets/dynamic/fonts/lora/lora-italic.woff2" as="font" type="font/woff2" crossorigin><link rel="stylesheet" href="https://cardmeanings.com/assets/css/style.css?v=0bb5682a982bdbbc966226fadba6208b"><script type="application/ld+json">{"@context":"http://schema.org","@type":"Organization","name":"Card Meanings","url":"https://cardmeanings.com/"}</script><noscript><style>img[loading] {
                     opacity: 1;
                 }</style></noscript><script type="application/ld+json">{
   "@context": "https://schema.org",
@@ -174,112 +174,7 @@
             }
          }
       }
-      publiiDetectLoadedImages();</script><script>(function () {
-    const colours = {
-        major: '#6E4F86',       /* muted purple */
-        wands: '#A84B3C',       /* muted vermilion */
-        cups: '#3F789B',        /* deep water blue */
-        swords: '#626B73',      /* cool slate grey */
-        pentacles: '#92701D'    /* antique gold */
-    };
-
-    function getCardColour(path) {
-        path = path.toLowerCase();
-
-        if (path.includes('-of-wands')) {
-            return colours.wands;
-        }
-
-        if (path.includes('-of-cups')) {
-            return colours.cups;
-        }
-
-        if (path.includes('-of-swords')) {
-            return colours.swords;
-        }
-
-        if (path.includes('-of-pentacles')) {
-            return colours.pentacles;
-        }
-
-        return colours.major;
-    }
-
-    function applyCardColours() {
-        const currentPath = window.location.pathname.toLowerCase();
-
-        /*
-         * Individual card pages:
-         * colour the first content H2.
-         */
-        if (currentPath.includes('/cards/')) {
-            const firstContentHeading =
-                document.querySelector('main article h2:first-of-type');
-
-            if (firstContentHeading) {
-                firstContentHeading.style.setProperty(
-                    'color',
-                    getCardColour(currentPath),
-                    'important'
-                );
-            }
-        }
-
-        /*
-         * Homepage and archive post lists:
-         * use the card-title link to identify the suit,
-         * then colour the separate descriptive H2.
-         */
-        document.querySelectorAll('article').forEach(function (article) {
-            const cardTitleLink = article.querySelector(
-                'h2 a[href*="/cards/"], h3 a[href*="/cards/"]'
-            );
-
-            if (!cardTitleLink) {
-                return;
-            }
-
-            const cardPath = new URL(
-                cardTitleLink.href,
-                window.location.origin
-            ).pathname;
-
-            const colour = getCardColour(cardPath);
-            const headings = article.querySelectorAll('h2');
-
-            headings.forEach(function (heading) {
-                /*
-                 * Leave the card title unchanged:
-                 * The Fool, King of Wands, Ace of Cups, etc.
-                 */
-                if (heading.contains(cardTitleLink)) {
-                    heading.style.removeProperty('color');
-                    cardTitleLink.style.removeProperty('color');
-                    return;
-                }
-
-                /*
-                 * Colour the descriptive H2:
-                 * Uncharted, Sovereignty, Lineage, etc.
-                 */
-                heading.style.setProperty(
-                    'color',
-                    colour,
-                    'important'
-                );
-            });
-        });
-    }
-
-    if (document.readyState === 'loading') {
-        document.addEventListener(
-            'DOMContentLoaded',
-            applyCardColours
-        );
-    } else {
-        applyCardColours();
-    }
-})();</script><script src="https://cardmeanings.com/media/plugins/pagePrefetching/quicklink.umd.js"></script><script>window.addEventListener('load', () => {
+      publiiDetectLoadedImages();</script><script src="https://cardmeanings.com/media/plugins/pagePrefetching/quicklink.umd.js"></script><script>window.addEventListener('load', () => {
 					quicklink.listen({
 						prerender: true,
 						el: document.querySelector('body'),
