@@ -5,24 +5,32 @@
   "@graph": [
     {
       "@type": "Person",
-      "@id": "https://cardmeanings.com/#finbarre-snarey",
+      "@id": "https://finbarre.com/#person",
       "name": "Finbarre Snarey",
+      "alternateName": [
+        "Finbarre",
+        "Fin Snarey",
+        "Fin"
+      ],
       "url": "https://finbarre.com/",
       "mainEntityOfPage": {
-        "@id": "https://cardmeanings.com/about-finbarre-snarey/#profile"
+        "@id": "https://finbarre.com/#profile"
       },
       "image": {
-        "@type": "ImageObject",
-        "@id": "https://cardmeanings.com/#finbarre-snarey-image",
-        "url": "https://cardmeanings.com/media/posts/79/responsive/Finbarre-Snarey-lg.webp",
-        "contentUrl": "https://cardmeanings.com/media/posts/79/responsive/Finbarre-Snarey-lg.webp",
-        "caption": "Finbarre Snarey, tarot researcher, journalist and creator of CardMeanings.com"
+        "@id": "https://cardmeanings.com/#finbarre-snarey-image"
       },
-      "description": "Finbarre Snarey is a tarot researcher, arts and culture journalist, and creator of CardMeanings.com, Tarot Interviews and Tarot DMs.",
+      "description": "Finbarre Snarey is an arts and culture journalist, producer, creative technologist and tarot researcher. He is the creator of CardMeanings.com, Tarot Interviews, Tarot DMs and One Tarot Card, and founder of the British Tarot Archive.",
       "jobTitle": [
-        "Tarot Researcher",
-        "Arts and Culture Journalist"
+        "Arts and Culture Journalist",
+        "Producer",
+        "Creative Technologist",
+        "Podcast Host",
+        "Tarot Researcher"
       ],
+      "homeLocation": {
+        "@type": "Place",
+        "name": "Beeston, Nottinghamshire, United Kingdom"
+      },
       "knowsAbout": [
         "Rider-Waite-Smith tarot",
         "Tarot card meanings",
@@ -32,15 +40,65 @@
         "Tarot as living heritage",
         "Pamela Colman Smith",
         "A. E. Waite",
-        "Aleatory interviewing"
+        "Aleatory journalism",
+        "Creative interviewing",
+        "Arts journalism",
+        "Podcast production",
+        "Digital publishing",
+        "British tarot history",
+        "Living heritage",
+        "Intangible cultural heritage"
       ],
       "sameAs": [
-        "https://finbarre.com/",
-        "https://tarotinterviews.com/",
-        "https://tarotdms.com/",
-        "https://britishtarotarchive.org/",
-        "https://www.instagram.com/finbarre/"
+        "https://bsky.app/profile/finbarre.com",
+        "https://www.instagram.com/finbarre/",
+        "https://www.linkedin.com/in/finbarresnarey/",
+        "https://www.imdb.com/name/nm17224867/",
+        "https://www.pressloft.com/app/profile/60857/finbarre-snarey"
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://finbarre.com/#profile"
+        },
+        {
+          "@id": "https://cardmeanings.com/about-finbarre-snarey/#profile"
+        }
       ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://cardmeanings.com/#finbarre-snarey-image",
+      "url": "https://cardmeanings.com/media/posts/79/responsive/Finbarre-Snarey-lg.webp",
+      "contentUrl": "https://cardmeanings.com/media/posts/79/responsive/Finbarre-Snarey-lg.webp",
+      "caption": "Finbarre Snarey, tarot researcher, journalist and creator of CardMeanings.com"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://finbarre.com/#website",
+      "url": "https://finbarre.com/",
+      "name": "Finbarre Snarey",
+      "description": "The website of Finbarre Snarey, arts and culture journalist, producer and creative technologist.",
+      "creator": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "publisher": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "inLanguage": "en-GB"
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://finbarre.com/#profile",
+      "url": "https://finbarre.com/",
+      "name": "Finbarre Snarey",
+      "description": "The official profile of Finbarre Snarey, arts and culture journalist, producer, creative technologist and tarot researcher.",
+      "mainEntity": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "isPartOf": {
+        "@id": "https://finbarre.com/#website"
+      },
+      "inLanguage": "en-GB"
     },
     {
       "@type": "WebSite",
@@ -54,25 +112,36 @@
       "description": "A quick-reference guide to all 78 Rider-Waite-Smith tarot cards, combining traditional symbolism, upright and reversed meanings, and Finbarre Snarey's contemporary interpretations.",
       "inLanguage": "en-GB",
       "image": {
-        "@type": "ImageObject",
-        "@id": "https://cardmeanings.com/#website-image",
-        "url": "https://cardmeanings.com/media/website/favicon.png",
-        "contentUrl": "https://cardmeanings.com/media/website/favicon.png",
-        "caption": "CardMeanings.com moon emblem"
+        "@id": "https://cardmeanings.com/#website-image"
       },
       "creator": {
-        "@id": "https://cardmeanings.com/#finbarre-snarey"
+        "@id": "https://finbarre.com/#person"
       },
       "publisher": {
-        "@id": "https://cardmeanings.com/#finbarre-snarey"
+        "@id": "https://finbarre.com/#person"
       },
       "copyrightHolder": {
-        "@id": "https://cardmeanings.com/#finbarre-snarey"
+        "@id": "https://finbarre.com/#person"
       },
       "copyrightYear": 2026,
       "about": {
         "@id": "https://cardmeanings.com/#rider-waite-smith-tarot"
-      }
+      },
+      "hasPart": [
+        {
+          "@id": "https://cardmeanings.com/#homepage"
+        },
+        {
+          "@id": "https://cardmeanings.com/about-finbarre-snarey/#profile"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://cardmeanings.com/#website-image",
+      "url": "https://cardmeanings.com/media/website/favicon.png",
+      "contentUrl": "https://cardmeanings.com/media/website/favicon.png",
+      "caption": "CardMeanings.com moon emblem"
     },
     {
       "@type": [
@@ -92,13 +161,13 @@
         "@id": "https://cardmeanings.com/#rider-waite-smith-tarot"
       },
       "author": {
-        "@id": "https://cardmeanings.com/#finbarre-snarey"
+        "@id": "https://finbarre.com/#person"
       },
       "creator": {
-        "@id": "https://cardmeanings.com/#finbarre-snarey"
+        "@id": "https://finbarre.com/#person"
       },
       "publisher": {
-        "@id": "https://cardmeanings.com/#finbarre-snarey"
+        "@id": "https://finbarre.com/#person"
       },
       "mainEntity": {
         "@type": "ItemList",
@@ -115,17 +184,31 @@
       "url": "https://cardmeanings.com/about-finbarre-snarey/",
       "name": "About Finbarre Snarey",
       "headline": "About Finbarre Snarey",
-      "description": "Meet Finbarre Snarey, tarot researcher and creator of CardMeanings.com, Tarot Interviews, Tarot DMs and the British Tarot Archive.",
+      "description": "Meet Finbarre Snarey, tarot researcher and creator of CardMeanings.com, Tarot Interviews, Tarot DMs and One Tarot Card, and founder of the British Tarot Archive.",
       "inLanguage": "en-GB",
       "isPartOf": {
         "@id": "https://cardmeanings.com/#website"
       },
       "mainEntity": {
-        "@id": "https://cardmeanings.com/#finbarre-snarey"
+        "@id": "https://finbarre.com/#person"
       },
       "about": {
-        "@id": "https://cardmeanings.com/#finbarre-snarey"
+        "@id": "https://finbarre.com/#person"
       },
+      "mentions": [
+        {
+          "@id": "https://tarotinterviews.com/#podcast"
+        },
+        {
+          "@id": "https://tarotdms.com/#series"
+        },
+        {
+          "@id": "https://onetarotcard.com/#series"
+        },
+        {
+          "@id": "https://britishtarotarchive.org/#organization"
+        }
+      ],
       "primaryImageOfPage": {
         "@id": "https://cardmeanings.com/#finbarre-snarey-image"
       }
@@ -138,14 +221,161 @@
         "RWS Tarot",
         "Rider-Waite-Smith deck"
       ],
-      "description": "A system of 78 tarot cards illustrated by Pamela Colman Smith and first published with guidance by A. E. Waite.",
-      "hasDefinedTerm": {
-        "@type": "DefinedTerm",
-        "name": "Tarot card meanings"
-      }
+      "description": "A set of 78 tarot cards illustrated by Pamela Colman Smith and first published with guidance by A. E. Waite.",
+      "url": "https://cardmeanings.com/"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tarotinterviews.com/#website",
+      "url": "https://tarotinterviews.com/",
+      "name": "Tarot Interviews",
+      "description": "Tarot Interviews is a podcast created by Finbarre Snarey where creative people are interviewed using tarot cards as structured prompts.",
+      "creator": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "publisher": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "hasPart": {
+        "@id": "https://tarotinterviews.com/#podcast"
+      },
+      "inLanguage": "en-GB"
+    },
+    {
+      "@type": "PodcastSeries",
+      "@id": "https://tarotinterviews.com/#podcast",
+      "url": "https://tarotinterviews.com/",
+      "name": "Tarot Interviews",
+      "description": "Tarot Interviews is a podcast created and hosted by Finbarre Snarey where creative people are interviewed using tarot cards as structured prompts.",
+      "creator": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "author": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "publisher": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "isPartOf": {
+        "@id": "https://tarotinterviews.com/#website"
+      },
+      "inLanguage": "en-GB"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://tarotdms.com/#website",
+      "url": "https://tarotdms.com/",
+      "name": "Tarot DMs",
+      "description": "Tarot DMs is a messenger-based interview project created by Finbarre Snarey.",
+      "creator": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "publisher": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "hasPart": {
+        "@id": "https://tarotdms.com/#series"
+      },
+      "inLanguage": "en-GB"
+    },
+    {
+      "@type": "CreativeWorkSeries",
+      "@id": "https://tarotdms.com/#series",
+      "url": "https://tarotdms.com/",
+      "name": "Tarot DMs",
+      "description": "Tarot DMs is a messenger-based interview series where artists, writers and creative people respond to three tarot cards in a one-hour digital scrapbook format.",
+      "creator": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "author": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "publisher": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "issn": "2978-8935",
+      "isPartOf": {
+        "@id": "https://tarotdms.com/#website"
+      },
+      "inLanguage": "en-GB"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://onetarotcard.com/#website",
+      "url": "https://onetarotcard.com/",
+      "name": "One Tarot Card",
+      "description": "One Tarot Card is a live public interview platform created by Finbarre Snarey for short tarot-led conversations.",
+      "creator": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "publisher": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "hasPart": {
+        "@id": "https://onetarotcard.com/#series"
+      },
+      "inLanguage": "en-GB"
+    },
+    {
+      "@type": "CreativeWorkSeries",
+      "@id": "https://onetarotcard.com/#series",
+      "url": "https://onetarotcard.com/channel/OneTarotCard",
+      "name": "One Tarot Card",
+      "description": "A live public micro-interview series in which Finbarre Snarey draws one tarot card and asks the participant one question inspired by it.",
+      "creator": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "author": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "publisher": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "isPartOf": {
+        "@id": "https://onetarotcard.com/#website"
+      },
+      "inLanguage": "en-GB"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://britishtarotarchive.org/#website",
+      "url": "https://britishtarotarchive.org/",
+      "name": "The British Tarot Archive",
+      "description": "The British Tarot Archive is an independent archive project documenting tarot decks and printed tarot material connected with Britain and the UK.",
+      "creator": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "publisher": {
+        "@id": "https://britishtarotarchive.org/#organization"
+      },
+      "mainEntity": {
+        "@id": "https://britishtarotarchive.org/#organization"
+      },
+      "inLanguage": "en-GB"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://britishtarotarchive.org/#organization",
+      "url": "https://britishtarotarchive.org/",
+      "name": "The British Tarot Archive",
+      "description": "An independent archive project documenting tarot decks and printed tarot material connected with Britain and the UK.",
+      "founder": {
+        "@id": "https://finbarre.com/#person"
+      },
+      "sameAs": [
+        "https://britishtarotarchive.org/"
+      ]
     }
   ]
-}</script></head><body class="search-template"><header class="header" id="js-header"><a href="https://cardmeanings.com/" class="logo">Card Meanings</a><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button><ul class="navbar__menu"><li><a href="https://cardmeanings.com/tags/" target="_self">Tags</a></li><li><a href="https://tarotinterviews.com" target="_blank">Tarot Interviews</a></li><li><a href="https://tarotdms.com" target="_blank">Tarot DMs</a></li><li><a href="https://cardmeanings.com/about-finbarre-snarey/" target="_self">About Finbarre</a></li></ul></nav><div class="search"><div class="search__overlay js-search-overlay"></div><button class="search__btn js-search-btn" aria-label="Search"><svg role="presentation" focusable="false" height="18" width="18"><use xlink:href="https://cardmeanings.com/assets/svg/svg-map.svg#search"/></svg></button></div></header><main class="main page page--search"><div class="hero content__header"><div class="wrapper wrapper--narrow"><h1>Search</h1></div></div><div class="wrapper main__content content__inner"></div></main><footer class="footer"><div class="wrapper"><div class="footer__top"><a class="logo footer__logo" href="https://cardmeanings.com/">Card Meanings</a><div class="footer__nav-1"><h3 class="h6">Links</h3><ul class="footer__nav"><li><a href="https://finbarre.com" target="_blank">Finbarre.com</a></li><li><a href="https://britishtarotarchive.org" target="_blank">British Tarot Archive</a></li><li><a href="https://www.instagram.com/finbarre/" target="_self">Instagram</a></li></ul></div></div><div class="footer__bottom"><div class="footer__copyright">© 2026 Finbarre Snarey. All rights reserved. Made in Beeston, Nottinghamshire, UK.</div></div></div><button onclick="backToTopFunction()" id="backToTop" class="footer__bttop" aria-label="Back to top" title="Back to top"><svg><use xlink:href="https://cardmeanings.com/assets/svg/svg-map.svg#toparrow"/></svg></button></footer><script>window.publiiThemeMenuConfig = { mobileMenuMode: 'sidebar', animationSpeed: 300, submenuWidth: 'auto', doubleClickTime: 500, mobileMenuExpandableSubmenus: true, relatedContainerForOverlayMenuSelector: '.navbar', };</script><script defer="defer" src="https://cardmeanings.com/assets/js/scripts.min.js?v=992c3ac36ed54a05a36c360060804cbd"></script><script>function publiiDetectLoadedImages () {
+}</script></head><body class="search-template"><header class="header" id="js-header"><a href="https://cardmeanings.com/" class="logo">Card Meanings</a><nav class="navbar js-navbar"><button class="navbar__toggle js-toggle" aria-label="Menu"><span class="navbar__toggle-box"><span class="navbar__toggle-inner">Menu</span></span></button><ul class="navbar__menu"><li><a href="https://cardmeanings.com/tags/" target="_self">Tags</a></li><li><a href="https://tarotinterviews.com" target="_blank">Tarot Interviews</a></li><li><a href="https://tarotdms.com" target="_blank">Tarot DMs</a></li><li><a href="https://cardmeanings.com/about-finbarre-snarey/" target="_self">About Finbarre</a></li><li><a href="https://guestbook.cardmeanings.com" target="_blank">Guestbook</a></li></ul></nav><div class="search"><div class="search__overlay js-search-overlay"><form action="https://cardmeanings.com/search.html" class="search__form"><input class="search__input" type="search" name="q" placeholder="search..." aria-label="search..."></form></div><button class="search__btn js-search-btn" aria-label="Search"><svg role="presentation" focusable="false" height="18" width="18"><use xlink:href="https://cardmeanings.com/assets/svg/svg-map.svg#search"/></svg></button></div></header><main class="main page page--search"><div class="hero content__header"><div class="wrapper wrapper--narrow"><h1>Search</h1></div></div><div class="wrapper main__content content__inner"><form action="https://cardmeanings.com/search.html" class="search-page-form"><input type="search" name="q" placeholder="search..." class="search-page-input"> <button type="submit" class="search-page-button"><span>Submit</span></button></form><script type="text/javascript">(function () {
+					var cx = '';
+					var gcse = document.createElement('script');
+					gcse.type  = 'text/javascript';
+					gcse.async = true;
+					gcse.src   = 'https://cse.google.com/cse.js?cx=' + cx;
+					var s = document.getElementsByTagName('script')[0];
+					s.parentNode.insertBefore(gcse, s);
+				})();</script><gcse:searchresults-only></gcse:searchresults-only><script type="text/javascript"></script></div></main><footer class="footer"><div class="wrapper"><div class="footer__top"><a class="logo footer__logo" href="https://cardmeanings.com/">Card Meanings</a><div class="footer__nav-1"><h3 class="h6">Links</h3><ul class="footer__nav"><li><a href="https://finbarre.com" target="_blank">Finbarre.com</a></li><li><a href="https://britishtarotarchive.org" target="_blank">British Tarot Archive</a></li><li><a href="https://www.instagram.com/finbarre/" target="_self">Instagram</a></li></ul></div></div><div class="footer__bottom"><div class="footer__copyright">© 2026 Finbarre Snarey. All rights reserved. Made in Beeston, Nottinghamshire, UK.</div></div></div><button onclick="backToTopFunction()" id="backToTop" class="footer__bttop" aria-label="Back to top" title="Back to top"><svg><use xlink:href="https://cardmeanings.com/assets/svg/svg-map.svg#toparrow"/></svg></button></footer><script>window.publiiThemeMenuConfig = { mobileMenuMode: 'sidebar', animationSpeed: 300, submenuWidth: 'auto', doubleClickTime: 500, mobileMenuExpandableSubmenus: true, relatedContainerForOverlayMenuSelector: '.navbar', };</script><script defer="defer" src="https://cardmeanings.com/assets/js/scripts.min.js?v=992c3ac36ed54a05a36c360060804cbd"></script><script>function publiiDetectLoadedImages () {
          var images = document.querySelectorAll('img[loading]:not(.is-loaded)');
          for (var i = 0; i < images.length; i++) {
             if (images[i].complete) {
@@ -159,4 +389,13 @@
             }
          }
       }
-      publiiDetectLoadedImages();</script></body></html>
+      publiiDetectLoadedImages();</script><script src="https://cardmeanings.com/media/plugins/pagePrefetching/quicklink.umd.js"></script><script>window.addEventListener('load', () => {
+					quicklink.listen({
+						prerender: true,
+						el: document.querySelector('body'),
+						delay: 300,
+						limit: Infinity,
+						throttle: 3,
+						timeout: 2000
+					});
+				});</script></body></html>

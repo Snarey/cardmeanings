@@ -3,7 +3,7 @@
     <title>Card Meanings</title>
     <link href="https://cardmeanings.com/feed.xml" rel="self" />
     <link href="https://cardmeanings.com" />
-    <updated>2026-07-20T18:05:14+01:00</updated>
+    <updated>2026-07-12T15:23:23+01:00</updated>
     <author>
         <name>Finbarre Snarey</name>
     </author>
@@ -17,14 +17,7 @@
         <link href="https://cardmeanings.com/cards/king-of-pentacles/"/>
         <id>https://cardmeanings.com/cards/king-of-pentacles/</id>
         <media:content url="https://cardmeanings.com/media/posts/78/13pent.png" medium="image" />
-            <category term="Yellow Sky"/>
-            <category term="Throne"/>
             <category term="Pentacles"/>
-            <category term="Pentacle"/>
-            <category term="Fruit"/>
-            <category term="Crown"/>
-            <category term="City"/>
-            <category term="Bull"/>
 
         <updated>2026-07-10T19:15:09+01:00</updated>
             <summary type="html">
@@ -57,7 +50,7 @@
 </tr>
 <tr>
 <th scope="row">Linked card</th>
-<td><a href="https://cardmeanings.com/cards/king-of-wands">King of Wands</a></td>
+<td><a href="/cards/the-emperor/">The Emperor</a></td>
 </tr>
 <tr>
 <th scope="row">Soundtrack</th>
@@ -191,15 +184,7 @@
         <link href="https://cardmeanings.com/cards/queen-of-pentacles/"/>
         <id>https://cardmeanings.com/cards/queen-of-pentacles/</id>
         <media:content url="https://cardmeanings.com/media/posts/77/14pent.png" medium="image" />
-            <category term="Yellow Sky"/>
-            <category term="Tree"/>
-            <category term="Throne"/>
             <category term="Pentacles"/>
-            <category term="Pentacle"/>
-            <category term="Mountain"/>
-            <category term="Fruit"/>
-            <category term="Flower"/>
-            <category term="Crown"/>
 
         <updated>2026-07-10T19:14:59+01:00</updated>
             <summary type="html">
@@ -232,7 +217,7 @@
 </tr>
 <tr>
 <th scope="row">Linked card</th>
-<td><a href="https://cardmeanings.com/cards/queen-of-wands">Queen of Wands</a></td>
+<td><a href="/cards/the-empress/">The Empress</a></td>
 </tr>
 <tr>
 <th scope="row">Soundtrack</th>
@@ -367,14 +352,7 @@
         <link href="https://cardmeanings.com/cards/knight-of-pentacles/"/>
         <id>https://cardmeanings.com/cards/knight-of-pentacles/</id>
         <media:content url="https://cardmeanings.com/media/posts/76/12pent.png" medium="image" />
-            <category term="Yellow Sky"/>
-            <category term="Tree"/>
             <category term="Pentacles"/>
-            <category term="Pentacle"/>
-            <category term="Mountain"/>
-            <category term="Horse"/>
-            <category term="Field"/>
-            <category term="Armour"/>
 
         <updated>2026-07-10T19:14:47+01:00</updated>
             <summary type="html">
@@ -407,7 +385,7 @@
 </tr>
 <tr>
 <th scope="row">Linked card</th>
-<td><a href="https://cardmeanings.com/cards/knight-of-wands">Knight of Wands</a></td>
+<td><a href="/cards/the-chariot/">The Chariot</a></td>
 </tr>
 <tr>
 <th scope="row">Soundtrack</th>
@@ -542,13 +520,7 @@
         <link href="https://cardmeanings.com/cards/page-of-pentacles/"/>
         <id>https://cardmeanings.com/cards/page-of-pentacles/</id>
         <media:content url="https://cardmeanings.com/media/posts/75/11pent.png" medium="image" />
-            <category term="Yellow Sky"/>
-            <category term="Tree"/>
             <category term="Pentacles"/>
-            <category term="Pentacle"/>
-            <category term="Mountain"/>
-            <category term="Flower"/>
-            <category term="Field"/>
 
         <updated>2026-07-10T19:14:34+01:00</updated>
             <summary type="html">
@@ -581,7 +553,7 @@
 </tr>
 <tr>
 <th scope="row">Linked card</th>
-<td><a href="https://cardmeanings.com/cards/page-of-wands/">Page of Wands</a></td>
+<td><a href="/cards/ace-of-pentacles/">Ace of Pentacles</a></td>
 </tr>
 <tr>
 <th scope="row">Soundtrack</th>
@@ -716,14 +688,6 @@
         <id>https://cardmeanings.com/cards/ten-of-pentacles/</id>
         <media:content url="https://cardmeanings.com/media/posts/74/10pent.png" medium="image" />
             <category term="Pentacles"/>
-            <category term="Pentacle"/>
-            <category term="Dog"/>
-            <category term="Crowd"/>
-            <category term="Couple"/>
-            <category term="City"/>
-            <category term="Child"/>
-            <category term="Blue Sky"/>
-            <category term="Archway"/>
 
         <updated>2026-07-10T19:14:18+01:00</updated>
             <summary type="html">
@@ -756,7 +720,7 @@
 </tr>
 <tr>
 <th scope="row">Linked card</th>
-<td><a href="https://cardmeanings.com/cards/ten-of-wands/">Ten of Wands</a></td>
+<td><a href="/cards/the-world/">The World</a></td>
 </tr>
 <tr>
 <th scope="row">Soundtrack</th>
@@ -890,14 +854,7 @@
         <link href="https://cardmeanings.com/cards/nine-of-pentacles/"/>
         <id>https://cardmeanings.com/cards/nine-of-pentacles/</id>
         <media:content url="https://cardmeanings.com/media/posts/73/9pent.png" medium="image" />
-            <category term="Yellow Sky"/>
             <category term="Pentacles"/>
-            <category term="Pentacle"/>
-            <category term="Garden"/>
-            <category term="Fruit"/>
-            <category term="Flower"/>
-            <category term="Castle"/>
-            <category term="Bird"/>
 
         <updated>2026-07-10T19:14:05+01:00</updated>
             <summary type="html">
@@ -930,7 +887,7 @@
 </tr>
 <tr>
 <th scope="row">Linked card</th>
-<td><a href="https://cardmeanings.com/cards/nine-of-wands">Nine of Wands</a></td>
+<td><a href="/cards/three-of-pentacles/">Three of Pentacles</a></td>
 </tr>
 <tr>
 <th scope="row">Soundtrack</th>
@@ -1064,11 +1021,7 @@
         <link href="https://cardmeanings.com/cards/eight-of-pentacles/"/>
         <id>https://cardmeanings.com/cards/eight-of-pentacles/</id>
         <media:content url="https://cardmeanings.com/media/posts/72/8pent..png" medium="image" />
-            <category term="Wall"/>
             <category term="Pentacles"/>
-            <category term="Pentacle"/>
-            <category term="Grey Sky"/>
-            <category term="City"/>
 
         <updated>2026-07-10T19:13:54+01:00</updated>
             <summary type="html">
@@ -1101,7 +1054,7 @@
 </tr>
 <tr>
 <th scope="row">Linked card</th>
-<td><a href="https://cardmeanings.com/cards/eight-of-wands">Eight of Wands</a></td>
+<td><a href="/cards/three-of-pentacles/">Three of Pentacles</a></td>
 </tr>
 <tr>
 <th scope="row">Soundtrack</th>
@@ -1236,12 +1189,7 @@
         <link href="https://cardmeanings.com/cards/seven-of-pentacles/"/>
         <id>https://cardmeanings.com/cards/seven-of-pentacles/</id>
         <media:content url="https://cardmeanings.com/media/posts/71/7pent..png" medium="image" />
-            <category term="Wand"/>
-            <category term="Tree"/>
             <category term="Pentacles"/>
-            <category term="Pentacle"/>
-            <category term="Grey Sky"/>
-            <category term="Garden"/>
 
         <updated>2026-07-10T19:13:45+01:00</updated>
             <summary type="html">
@@ -1274,7 +1222,7 @@
 </tr>
 <tr>
 <th scope="row">Linked card</th>
-<td><a href="https://cardmeanings.com/cards/seven-of-wands/">Seven of Wands</a></td>
+<td><a href="/cards/the-hanged-man/">The Hanged Man</a></td>
 </tr>
 <tr>
 <th scope="row">Soundtrack</th>
@@ -1408,12 +1356,7 @@
         <link href="https://cardmeanings.com/cards/six-of-pentacles/"/>
         <id>https://cardmeanings.com/cards/six-of-pentacles/</id>
         <media:content url="https://cardmeanings.com/media/posts/70/6pent..png" medium="image" />
-            <category term="Scale"/>
             <category term="Pentacles"/>
-            <category term="Pentacle"/>
-            <category term="Grey Sky"/>
-            <category term="Crowd"/>
-            <category term="City"/>
 
         <updated>2026-07-10T19:13:31+01:00</updated>
             <summary type="html">
@@ -1446,7 +1389,7 @@
 </tr>
 <tr>
 <th scope="row">Linked card</th>
-<td><a href="https://cardmeanings.com/cards/six-of-wands/">Six of Wands</a></td>
+<td><a href="/cards/justice/">Justice</a></td>
 </tr>
 <tr>
 <th scope="row">Soundtrack</th>
@@ -1580,11 +1523,7 @@
         <link href="https://cardmeanings.com/cards/five-of-pentacles/"/>
         <id>https://cardmeanings.com/cards/five-of-pentacles/</id>
         <media:content url="https://cardmeanings.com/media/posts/69/5pent..png" medium="image" />
-            <category term="Stained Glass"/>
-            <category term="Snow"/>
             <category term="Pentacles"/>
-            <category term="Pentacle"/>
-            <category term="Church"/>
 
         <updated>2026-07-10T19:13:18+01:00</updated>
             <summary type="html">
@@ -1617,7 +1556,7 @@
 </tr>
 <tr>
 <th scope="row">Linked card</th>
-<td><a href="https://cardmeanings.com/cards/five-of-wands/">Five of Wands</a></td>
+<td><a href="/cards/the-star/">The Star</a></td>
 </tr>
 <tr>
 <th scope="row">Soundtrack</th>
